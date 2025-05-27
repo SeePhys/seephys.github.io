@@ -7,7 +7,15 @@ body {
     font-size: 25px;
     color: #000;
 }
-
+caption {
+  caption-side: bottom; /* 将标题显示在表格的底部 */
+  text-align: center;   /* 可选：让标题居中 */
+  margin-top: 15px;     /* 可选：在表格和标题之间添加一些间距 */
+  font-style: italic;   /* 可选：其他样式 */
+}
+.underlined-text {
+  text-decoration: underline;
+}
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
